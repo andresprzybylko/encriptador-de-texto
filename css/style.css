@@ -1,0 +1,125 @@
+body{
+  background: #F2EBE9;
+  margin: 2vw;
+
+  border: 0.25vw solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+header{
+  height: 20%;
+}
+.titulo {
+  display: inline-block;
+  margin-top: 2vw;
+  margin-bottom: 1vw;
+  padding-left: 1vw;
+  font-size: 6vw;
+
+}
+
+img {
+  width: 6vw;
+  padding-top: 2%;
+  margin-left: 1%
+}
+
+.subtitulo{
+  padding-left: 1vw;
+  margin-top: 0;
+  margin-left: 0.5vw;
+  margin-bottom: 1%; 
+  font-size: 2vw;
+  font-weight: normal;
+}
+main{
+  background: #C4C4C4;
+  height: 50vh;
+}
+
+
+.copyright{
+  margin: 0;
+  padding: 1.5vw;
+  height: 4vh; 
+  
+  border: 0.25vw solid #000000;
+  border-radius: 0px 0px 10px 10px;
+
+  color: #E99F4C;
+  font-size: 1.5vw;
+  font-weight: 100;
+  text-align: center;
+  background: #264143;
+}
+
+form{
+  align-items: center;
+  padding: 3vw;
+}
+
+.entrada,
+.salida {
+  display: inline-block;
+}
+
+
+
+
+.textoEntrada,
+.textoSalida{ 
+  display: block;
+  width: 35vw;
+  height: 15vw;
+  resize: none;
+  margin-bottom: 0.5vw;
+  padding: 2vw;
+
+  border: 0.1vw solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
+  font-size: 1.3vw;
+  text-align: left;
+  background: #EDDCD9;
+}
+
+.textoEntrada {
+  margin-left: 5vw;
+  margin-right: 30px;
+}
+
+.textoSalida {
+  margin-left: 5vw;
+}
+
+
+
+.botonEncriptar, .botonDesencriptar, .botonCopiar{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 12vw;
+
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5vw;
+  color: #264143;
+  background: #E99F4C;
+}
+
+.botonEncriptar{
+  margin-left: 9vw; 
+  margin-right: 3vw;
+}
+
+.botonDesencriptar{
+  
+}
+
+.botonCopiar{
+  margin-left: 16vw;   
+}
+

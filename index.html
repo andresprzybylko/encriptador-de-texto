@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cripto Message</title>
+    <link rel= href="img/lock-16.ico" "icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="titulo-con-logo">
+        <h1 class="titulo">Cripto Message</h1>
+	<img src="img/candado.png" alt="logo">
+      </div>
+      <div>
+        <h2 class="subtitulo">Encriptador / Desencriptador de texto</h2>
+      </div>
+    </header>
+
+    <main>
+      <form>		
+        <div class="entrada">
+          <textarea class="textoEntrada" type="text" cols="15" rows="5" autofocus placeholder="Ingrese texto a encriptar/desencriptar. &#10Sólo minúsculas y sin acentos..." required ></textarea>
+          <button class="botonEncriptar" type="submit">Encriptar</button>
+          <button class="botonDesencriptar">Desencriptar</button>
+        </div>
+	<div class="salida"> 
+          <textarea class="textoSalida" cols="15" rows="5" placeholder="Aquí verá su texto procesado..."></textarea>
+          <button class="botonCopiar">Copiar texto</button>
+        </div>
+      </form>
+    </main>
+
+
+    <footer>
+      <p class="copyright"> Desarrollado por Andrés Przybylko - #Challenge Alura-Latam - Oracle Next Education- 2022</p>
+    </footer>
+    <script src="js/encriptador.js"></script>
+    <script src="js/desencriptador.js"></script>
+    <script src="js/copiar.js"></script>
+  </body>
+</html>
