@@ -1,9 +1,14 @@
 body{
   font-family: 'Dosis', sans-serif;
   font-size: 16px;
-  background: url('../img/fondo_small.jpg');
-  /*background-size: contain;*/
   color: #ffd587;
+  display: flex;
+  flex-direction: column;
+  background: #fff0d3;
+}
+
+.imagen-fondo{
+  background: url('../img/fondo_small.jpg');
 }
 
 .encabezado{
@@ -94,8 +99,6 @@ body{
 .pie-pagina{
   background: linear-gradient(#000f26, #ffd587, #ffd587, #fff0d3);
   padding: 2.5vh 0;
-  position: absolute;
-  bottom: 0 !important;
   width: 100%;
 }
 
@@ -105,4 +108,63 @@ body{
   color: #001f47;
 }
 
+/* MEDIA QUERIES */
+/* TABLET        */
+
+@media screen and (max-width: 800px){
+
+   .container{
+     margin: 1rem auto;
+     justify-content: space-around;
+   }
+
+   .encabezado{
+     margin: 1rem 0 0 1rem;
+   }
+   .texto-titulo{
+     font-size: 4.5rem;
+   }
+
+   .subtitulo{
+     font-size: 1.5rem;
+   }
+
+   .box{
+     font-size: 0.8rem;
+     padding: 1rem;
+     margin: 0 
+   } 
+
+   .botones{
+     font-size: 0.8rem;
+     margin: 1rem;
+   }
+
+   .texto-footer{
+     font-size: 0.6rem;
+   }
+
+/* MEDIA QUERIES */
+/* Cell phone    */
+
+@media screen and (max-width: 480px){
+
+   .texto-titulo{
+     font-size: 3.5rem;
+   }
+
+   .subtitulo{
+     font-size: 1rem;
+   }
+   .container{
+     flex-direction: column;
+     margin: 1rem auto;
+     justify-content: space-around;
+   }
+   
+   .entrada,
+   .salida{
+     width: 100%;
+   }
+}
 
