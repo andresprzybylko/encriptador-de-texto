@@ -31,8 +31,8 @@ body{
 }
 
 .box{
-  width: 80%;margin-top
-  height: 50vh; 
+  width: 80%;
+  height: 30vh; 
   resize: none;
   background: #ffd587;
   border-radius: 1rem;
@@ -68,11 +68,12 @@ body{
 }
 
 .botones{
-  width: 30%;
-  height: 6vh;
-  margin: 1rem;
+  width: 40%;
+  height: 8vh;
+  margin: 1.5rem;
   font: inherit;
   font-weight: 600;
+  font-size: 1.2rem;
   border-radius: 1rem;
   color: #001f47;
   background: #ffd587;
